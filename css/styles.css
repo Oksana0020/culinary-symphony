@@ -1,0 +1,93 @@
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Basic body*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar*/
+.navbar {
+    border-bottom: 1px solid #a2ed32;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 0.5rem 1rem;
+}
+
+/* Callout section*/
+.callout {
+    background: url('../images/backgroundimage.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 3rem 1rem;
+}
+
+.callout h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color:white;
+}
+
+.callout .lead {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.callout .btn {
+    font-size: 1.125rem;
+    padding: 0.75rem 1.5rem;
+}
+
+/* Modal */
+.modal-content {
+    padding: 1rem;
+}
+
+.modal-header {
+    border-bottom: 1px solid #ddd;
+}
+
+.modal-body {
+    padding: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* Features */
+.features {
+    background-color: #a2ed32;
+    padding: 2em;
+}
