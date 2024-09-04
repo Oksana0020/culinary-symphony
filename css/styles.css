@@ -4,16 +4,18 @@ body, h1, p, button {
     font-family: Arial, sans-serif;
 }
 
-/* Basic body*/
+/* Basic body */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Light grey background */
+    color: #555555;
 }
 
-/* Navbar*/
+/* Navbar */
 .navbar {
-    border-bottom: 1px solid #a2ed32;
+    border-bottom: 1px solid #ff4d4d; /* Cherry red */
 }
 
 .navbar-brand {
@@ -22,9 +24,15 @@ body {
 
 .navbar-nav .nav-item .nav-link {
     padding: 0.5rem 1rem;
+    color: #ff4d4d; /* Cherry red */
 }
 
-/* Callout section*/
+/* Navbar hover */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ff6600; /* Orange on hover */
+}
+
+/* Callout section */
 .callout {
     background: url('../images/backgroundimage.jpg') no-repeat center center;
     background-size: cover;
@@ -35,7 +43,7 @@ body {
 .callout h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color:white;
+    color: white;
 }
 
 .callout .lead {
@@ -46,6 +54,8 @@ body {
 .callout .btn {
     font-size: 1.125rem;
     padding: 0.75rem 1.5rem;
+    background-color: #ff66a3; /* Pink */
+    border-color: #ff66a3; /* Pink */
 }
 
 /* Modal */
@@ -54,7 +64,7 @@ body {
 }
 
 .modal-header {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ff4d4d; /* Cherry red */
 }
 
 .modal-body {
@@ -70,12 +80,11 @@ body {
 }
 
 .btn-success {
-    background-color: #28a745;
-    border-color: #28a745;
+    background-color: #ff66a3; /* Pink */
+    border-color: #ff66a3;
 }
 
 /* Page Headers */
-
 .page-header {
     margin-bottom: 0;
     border-bottom: 0;
@@ -84,10 +93,221 @@ body {
 
 .page-header h2 {
     margin-top: 0;
+    color: #ff4d4d; /* Cherry red */
 }
 
 /* Features */
 .features {
-    background-color: #a2ed32;
+    background-color: #ff99cc; /* Lighter pink */
     padding: 2em;
+}
+
+/* Colors */
+.bg-color-name-title {
+    background-color: #676767; /* Grey */
+}
+
+.bg-color-three-reasons {
+    background-color: #ffffff;
+}
+
+.bg-color-personal-info {
+    background-color: #f4f4f4; /* Light grey */
+}
+
+.bg-color-work-history {
+    background-color: #ff4d4d; /* Cherry red */
+}
+
+.bg-color-contact {
+    background-color: #ffffff;
+}
+
+.ui-menu-color-home {
+    background-color: #ff4d4d; /* Cherry red */
+}
+
+.ui-menu-color-resume {
+    background-color: #ff99cc; /* Lighter pink */
+}
+
+.ui-menu-color-contact {
+    background-color: #ff66a3; /* Pink */
+}
+
+.ui-menu-color-download {
+    background-color: #ff66a3; /* Pink */
+}
+
+.ui-menu-color-github {
+    background-color: #ff4d4d; /* Cherry red */
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #f2f2f2; /* Light grey */
+    color: #555555;
+}
+
+/* Special Paddings/Margins/Text */
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #ff66a3; /* Pink */
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/* Heading */
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../images/rosie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #8a1041; 
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #841313; 
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+.menuitem {
+    height: 6em;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #841313;
+    height: 6em;
+}
+
+/* Menu hover */
+.menuitem a:hover {
+    background-color: orange; 
+    color: #fff;  
+    transition: background-color 0.35s ease-in-out; 
+}
+
+.menuitem a.hvr-sweep-to-bottom:before {
+    background-color: orange; /* Set the background color to orange for the hover effect */
+}
+
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #841313;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/* Footer */
+footer {
+    background-color: #676767; /* Grey */
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+footer .cv-pdf i {
+    color: #fafafa;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+footer .cv-pdf i:hover {
+    color: #ff6600; /* Orange on hover */
+    transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i {
+    color: #841313; 
+}
+
+.social-links li a i:hover {
+    background: #ff6600; /* Orange on hover */
+}
+
+/* Buttons */
+button[type="submit"] {
+    background-color: #ff4d4d; /* Cherry red */
+    color: #fafafa;
+}
+
+/* Logo Image */
+.logo img {
+    width: 100%; 
+    max-height: 30em; 
+    height: auto;
+}
+
+/* Media Queries */
+@media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
